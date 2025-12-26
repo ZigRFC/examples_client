@@ -5,7 +5,7 @@ Download .lib and .dll files from https://support.sap.com/en/product/connectors/
 
 Create function module on your system:
 ```abap
-FUNCTION zif_rfc_sum
+FUNCTION zif_rfc_add
    IMPORTING
      VALUE(X) TYPE I
      VALUE(Y) TYPE I 
