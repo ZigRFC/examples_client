@@ -1,0 +1,25 @@
+.{
+    .name = .examples_client,
+    .version = "1.0.0",
+    .dependencies = .{
+        .rfc = .{
+            .url = "git+https://github.com/ZigRFC/ZigRFC#e2d7f24c4625b5dabfec67eb538633e216088f07",
+            .hash = "rfc-1.0.0-KYP6zO0yCwDsZfeNzjc7xkNII5UmLnjKE213RPkPdEXx",
+        },
+    },
+    .fingerprint = 0xb80de3fcdbd48e70,
+    .minimum_zig_version = "0.16.0-dev.1441+2ea55d715",
+
+    //Alternatively, copy content to rfc folder and use following dependency:
+    //.rfc = .{
+    //  .path = "rfc",
+    //},
+
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+        "LICENSE",
+        "README.md",
+    },
+}
