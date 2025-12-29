@@ -1,5 +1,12 @@
 .zig-cache/
 zig-out/
 *.o
-src/dll
+src/dll/icudt57.dll
+src/dll/icuin57.dll
+src/dll/icuuc57.dll
+src/dll/libsapucum.dll
+src/dll/libsapucum.lib
+src/dll/sapnwrfc.dll 
+src/dll/sapnwrfc.lib
+src/dll/sapnwrfc.pdb
 dev_rfc.log
